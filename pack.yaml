@@ -13,3 +13,6 @@ email: ianmprice@gmail.com
 contributors:
   - Ian Price <ianmprice@gmail.com>
   - Matt Miller <mattmiller87@gmail.com>
+python_versions:
+  - "2"
+  - "3"
