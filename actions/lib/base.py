@@ -22,7 +22,7 @@ class NSOneBaseAction(Action):
         # Check if we have an API Key in config
         try:
             api_key = self.config['api_key']
-        except Exception as e:
+        except Exception:
             self.logger.error('Failed to find API Key in NS1 config')
         # Load the API Key into NS1()
         try:
